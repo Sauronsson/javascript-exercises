@@ -1,9 +1,5 @@
 const getTheTitles = function(bookList) {
-    bookTitles = []
-    bookList.forEach(book => {
-        bookTitles.push(book.title)
-    });
-    return bookTitles
+    return bookList.map(book => book.title)
 };
 
 // Do not edit below this line
